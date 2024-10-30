@@ -1,7 +1,7 @@
 import { useQuery } from '@apollo/client';
 import { $currentPage, $searchQuery, resetPagination, setCurrentPage, setSearchQuery } from 'app/store';
 import { useUnit } from 'effector-react';
-import React, { useCallback, useEffect, useMemo } from 'react';
+import React, { useCallback, useMemo } from 'react';
 import { GET_OWNER_REPOSITORIES, GET_REPOSITORIES } from 'shared/api/queries';
 import Paginator from '../../widgets/Paginator';
 import RepositoryList from '../../widgets/RepositoryList';
